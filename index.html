@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Examen de Peritazgo Redes 2023 práctica</h1>
+
+    <div id="quiz-container">
+
+        <div id="navigation">
+            <button id="nav-button">Lista de preguntas</button>
+            <div id="dropdown-menu" class="hidden">
+                <h2>Navegación</h2>
+                <div id="button-container">
+                </div>
+            </div>
+        </div>
+        <form class="question-form" id="form1">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/1.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q1" value="incorrecta"> Camtacia</label>
+                    <label><input type="radio" name="q1" value="incorrecta"> Formularios</label>
+                    <label><input type="radio" name="q1" value="incorrecta"> Hojas de cálculo</label>
+                    <label><input type="radio" name="q1" value="correcta"> Procesador de Texto</label>
+                </div>
+                <p class="result-text" id="result1"></p>
+                <button type="button" class="next-btn" data-next="form2" data-question="q1" data-result="result1">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form2" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/2.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> .pdf y .csv</label>
+                    <label><input type="radio" name="q2" value="correcta"> .xlsx y .ods</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> .xls y .docx</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> .pptx y .xlsx</label>
+                </div>
+                <p class="result-text" id="result2"></p>
+                <button type="button" class="next-btn" data-next="form3" data-question="q2" data-result="result2">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form3" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/3.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Solo almacena información númerica y NO permite el almacenamiento de datos de texto</label>
+                    <label><input type="radio" name="q2" value="correcta"> Organiza la información en tablas relacionadas mediante claves primarias y claves externas</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Almacena información en forma de archivos de texto plano</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Solo permite el acceso a un único usuario a la vez</label>
+                </div>
+                <p class="result-text" id="result3"></p>
+                <button type="button" class="next-btn" data-next="form4" data-question="q2" data-result="result3">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form4" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/4.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Proceso y algoritmos</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Objetos y algoritmos</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Procesos y la nube</label>
+                    <label><input type="radio" name="q2" value="correcta"> Datos y personas</label>
+                </div>
+                <p class="result-text" id="result4"></p>
+                <button type="button" class="next-btn" data-next="form5" data-question="q2" data-result="result4">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form5" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/5.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> M2M</label>
+                    <label><input type="radio" name="q2" value="correcta"> M2P</label>
+                    <label><input type="radio" name="q2" value="incorrecta">P2P</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> P2M</label>
+                </div>
+                <p class="result-text" id="result5"></p>
+                <button type="button" class="next-btn" data-next="form6" data-question="q2" data-result="result5">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form6" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/6.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta">Ciberseguridad</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Codificación</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Criptografia</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Encriptación</label>
+                </div>
+                <p class="result-text" id="result6"></p>
+                <button type="button" class="next-btn" data-next="form7" data-question="q2" data-result="result6">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form7" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/7.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Control de acceso</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Seguridad perimetral</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Redundancia de datos</label>
+                    <label><input type="radio" name="q2" value="correcta"> Vulnerabilidad de datos</label>
+                </div>
+                <p class="result-text" id="result7"></p>
+                <button type="button" class="next-btn" data-next="form8" data-question="q2" data-result="result7">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form8" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/8.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 3A</label>
+                    <label><input type="radio" name="q2" value="correcta"> 3v</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 0,3 A</label>
+                    <label><input type="radio" name="q2" value="incorrecta">0,03A</label>
+                </div>
+                <p class="result-text" id="result8"></p>
+                <button type="button" class="next-btn" data-next="form9" data-question="q2" data-result="result8">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form9" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/9.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Genera campos magnéticos</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Permite almacenar la energía eléctrica</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Interrumpe el paso de la corriente eléctrica</label>
+                    <label><input type="radio" name="q2" value="correcta"> Convierte la corriente alterna en corriente directa</label>
+                </div>
+                <p class="result-text" id="result9"></p>
+                <button type="button" class="next-btn" data-next="form10" data-question="q2" data-result="result9">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form10" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/10.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> VESA</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> EISA</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> MCA</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> ISA</label>
+                </div>
+                <p class="result-text" id="result10"></p>
+                <button type="button" class="next-btn" data-next="form11" data-question="q2" data-result="result10">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form11" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/11.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> II y IV</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I y III</label>
+                    <label><input type="radio" name="q2" value="correcta"> I y IV</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> II y III</label>
+                </div>
+                <p class="result-text" id="result11"></p>
+                <button type="button" class="next-btn" data-next="form12" data-question="q2" data-result="result11">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form12" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/12.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> IP de origen</label>
+                    <label><input type="radio" name="q2" value="correcta"> IP de destino</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> MAC de origen</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> MAC de destino</label>
+                </div>
+                <p class="result-text" id="result12"></p>
+                <button type="button" class="next-btn" data-next="form13" data-question="q2" data-result="result12">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form13" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/13.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> II y IV</label>
+                    <label><input type="radio" name="q2" value="correcta"> I y III</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I y IV</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> II y III</label>
+                </div>
+                <p class="result-text" id="result13"></p>
+                <button type="button" class="next-btn" data-next="form14" data-question="q2" data-result="result13">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form14" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/14.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> I y IV</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I y III</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> II y III</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> II y IV</label>
+                </div>
+                <p class="result-text" id="result14"></p>
+                <button type="button" class="next-btn" data-next="form15" data-question="q2" data-result="result14">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form15" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/15.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 101010₂</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 101111₂</label>
+                    <label><input type="radio" name="q2" value="correcta"> 111110₂</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 111111₂</label>
+                </div>
+                <p class="result-text" id="result15"></p>
+                <button type="button" class="next-btn" data-next="form16" data-question="q2" data-result="result15">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form16" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/16.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Blanco/azul</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Blanco/café</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Blanco/naranja</label>
+                    <label><input type="radio" name="q2" value="correcta"> Blanco/café(marrón)</label>
+                </div>
+                <p class="result-text" id="result16"></p>
+                <button type="button" class="next-btn" data-next="form17" data-question="q2" data-result="result16">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form17" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/17.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Concentrador</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Conmutador</label>
+                    <label><input type="radio" name="q2" value="correcta"> Enrutador</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Puente</label>
+                </div>
+                <p class="result-text" id="result17"></p>
+                <button type="button" class="next-btn" data-next="form18" data-question="q2" data-result="result17">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form18" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/18.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Y= X + Y</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Y= X * Z</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Y=(X' + Z)'</label>
+                    <label><input type="radio" name="q2" value="correcta"> Y=(X * Z)'</label>
+                </div>
+                <p class="result-text" id="result18"></p>
+                <button type="button" class="next-btn" data-next="form19" data-question="q2" data-result="result18">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form19" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/19.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> negación</label>
+                    <label><input type="radio" name="q2" value="correcta"> tautología</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> afirmación</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> contingente</label>
+                </div>
+                <p class="result-text" id="result19"></p>
+                <button type="button" class="next-btn" data-next="form20" data-question="q2" data-result="result19">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form20" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/20.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Aumentar la eficiencia y productividad al realizar tareas repetitivas de manera constante y precisa</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Mejorar la interacción humana  al permitir una comunicación más fluida entre los trabajadores y los robots</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Reducir los costos de producción al requerir menos inversión en tecnología y mantenimientos</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Disminuir los errores humanos al realizar operaciones complejas de manera segura y confiable</label>
+                </div>
+                <p class="result-text" id="result20"></p>
+                <button type="button" class="next-btn" data-next="form21" data-question="q2" data-result="result20">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form21" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/21.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 1,3,5</label>
+                    <label><input type="radio" name="q2" value="correcta"> 3,5,7</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 2,4,6</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 4,6,8</label>
+                </div>
+                <p class="result-text" id="result21"></p>
+                <button type="button" class="next-btn" data-next="form22" data-question="q2" data-result="result21">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form22" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/22.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 1,3,5</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 2,3,4,5</label>
+                    <label><input type="radio" name="q2" value="correcta"> 0,1,2,3</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 1,2,3,4,5</label>
+                </div>
+                <p class="result-text" id="result22"></p>
+                <button type="button" class="next-btn" data-next="form23" data-question="q2" data-result="result22">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form23" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/23.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 2</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 4</label>
+                    <label><input type="radio" name="q2" value="correcta"> 6</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 8</label>
+                </div>
+                <p class="result-text" id="result23"></p>
+                <button type="button" class="next-btn" data-next="form24" data-question="q2" data-result="result23">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form24" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/24.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> El estudio de la enfermedades generacionales en los seres humanos</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> La inversión en bienes raíces y propiedades para obtener ganancias</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> El intercambio de bienes y servicios en un mercado financiero</label>
+                    <label><input type="radio" name="q2" value="correcta"> El proceso de crear y gestionar un nuevo negocio o proyecto</label>
+                </div>
+                <p class="result-text" id="result24"></p>
+                <button type="button" class="next-btn" data-next="form25" data-question="q2" data-result="result24">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form25" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/25.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 4</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 8</label>
+                    <label><input type="radio" name="q2" value="correcta"> 16</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 32</label>
+                </div>
+                <p class="result-text" id="result25"></p>
+                <button type="button" class="next-btn" data-next="form26" data-question="q2" data-result="result25">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form26" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/26.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Competidores en el mercado</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Empleados que trabajan en una organización</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Proveedores de materiales o insumos para la producción</label>
+                    <label><input type="radio" name="q2" value="correcta"> Personas o entidades que adquieren productos o servicios de una empresa</label>
+                </div>
+                <p class="result-text" id="result26"></p>
+                <button type="button" class="next-btn" data-next="form27" data-question="q2" data-result="result26">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form27" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/27.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Trabajadores</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Tamaño</label>
+                    <label><input type="radio" name="q2" value="correcta"> Ventas</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Logo</label>
+                </div>
+                <p class="result-text" id="result27"></p>
+                <button type="button" class="next-btn" data-next="form28" data-question="q2" data-result="result27">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form28" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/28.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Identificar las posibilidades de crecimiento empresarial</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Estudiar las tendencias de consumo actuales</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Analizar la historia del emprendimiento</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Explorar las dificultades personales</label>
+                </div>
+                <p class="result-text" id="result28"></p>
+                <button type="button" class="next-btn" data-next="form29" data-question="q2" data-result="result28">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form29" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/29.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Chipset</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Procesador</label>
+                    <label><input type="radio" name="q2" value="correcta"> Memoria RAM</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Disipador de calor</label>
+                </div>
+                <p class="result-text" id="result29"></p>
+                <button type="button" class="next-btn" data-next="form30" data-question="q2" data-result="result29">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form30" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/30.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> I W - II X - III Y</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I Y - II W - III X</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I X - II Y - III W</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I W - II Y - III X</label>
+                </div>
+                <p class="result-text" id="result30"></p>
+                <button type="button" class="next-btn" data-next="form31" data-question="q2" data-result="result30">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form31" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/31.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Bobina desmagnetizadora</label>
+                    <label><input type="radio" name="q2" value="correcta"> Cañones de electrones</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Yugos de deflexión</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Haz de electrones</label>
+                </div>
+                <p class="result-text" id="result31"></p>
+                <button type="button" class="next-btn" data-next="form32" data-question="q2" data-result="result31">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form32" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/32.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Chipset</label>
+                    <label><input type="radio" name="q2" value="correcta"> Socket</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Bios</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Slot</label>
+                </div>
+                <p class="result-text" id="result32"></p>
+                <button type="button" class="next-btn" data-next="form33" data-question="q2" data-result="result32">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form33" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/33.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> I y III</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I y IV</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> II y III</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> II y IV</label>
+                </div>
+                <p class="result-text" id="result33"></p>
+                <button type="button" class="next-btn" data-next="form34" data-question="q2" data-result="result33">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form34" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/34.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> al robo de identidad</label>
+                    <label><input type="radio" name="q2" value="correcta"> al robo de información</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> a la interrupción del servicio</label>
+                    <label><input type="radio" name="q2" value="incorrecta">a la manipulación y pérdida de datos</label>
+                </div>
+                <p class="result-text" id="result34"></p>
+                <button type="button" class="next-btn" data-next="form35" data-question="q2" data-result="result34">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form35" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/35.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Falta un enrutamiento dinamico entre las interfaces seriales</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> El direccionamiento de capa 3 se encuentra deshabilitado</label>
+                    <label><input type="radio" name="q2" value="incorrecta">Existe un overlaps en el dirección de capa 2</label>
+                    <label><input type="radio" name="q2" value="incorrecta">Se encuentran apagadas las interfaces seriales</label>
+                </div>
+                <p class="result-text" id="result35"></p>
+                <button type="button" class="next-btn" data-next="form36" data-question="q2" data-result="result35">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form36" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/36.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> II y IV </label>
+                    <label><input type="radio" name="q2" value="correcta"> I y III</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I y IV</label>
+                    <label><input type="radio" name="q2" value="incorrecta">II y III</label>
+                </div>
+                <p class="result-text" id="result36"></p>
+                <button type="button" class="next-btn" data-next="form37" data-question="q2" data-result="result36">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form37" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/37.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> WLAN</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> WAN</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> MAN</label>
+                    <label><input type="radio" name="q2" value="correcta"> LAN</label>
+                </div>
+                <p class="result-text" id="result37"></p>
+                <button type="button" class="next-btn" data-next="form38" data-question="q2" data-result="result37">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form38" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/38.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> HTTP</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> FTP</label>
+                    <label><input type="radio" name="q2" value="correcta"> TCP</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> UDP</label>
+                </div>
+                <p class="result-text" id="result38"></p>
+                <button type="button" class="next-btn" data-next="form39" data-question="q2" data-result="result38">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form39" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/39.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> El host F y el host J</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> El host K y el host I </label>
+                    <label><input type="radio" name="q2" value="incorrecta">Solo el host K</label>
+                    <label><input type="radio" name="q2" value="correcta"> Solo el host E</label>
+                </div>
+                <p class="result-text" id="result39"></p>
+                <button type="button" class="next-btn" data-next="form40" data-question="q2" data-result="result39">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form40" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/40.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 172.0.12.248</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 172.0.13.135</label>
+                    <label><input type="radio" name="q2" value="correcta"> 172.0.14.128</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 172.0.15.255</label>
+                </div>
+                <p class="result-text" id="result40"></p>
+                <button type="button" class="next-btn" data-next="form41" data-question="q2" data-result="result40">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form41" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/41.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> El switch contesta con un mensaje unicast y lo envía al host G</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> El switch contesta con un mensaje broadcast y lo envía al host G</label>
+                    <label><input type="radio" name="q2" value="correcta"> El host E envía con un mensaje unicast y el switch lo entrega al host G</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> El host E envía con un mensaje broadcast y el switch lo entrega a todos los hosts</label>
+                </div>
+                <p class="result-text" id="result41"></p>
+                <button type="button" class="next-btn" data-next="form42" data-question="q2" data-result="result41">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form42" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/42.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> III y IV</label>
+                    <label><input type="radio" name="q2" value="correcta"> II y III</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> II y IV</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I y III</label>
+                </div>
+                <p class="result-text" id="result42"></p>
+                <button type="button" class="next-btn" data-next="form43" data-question="q2" data-result="result42">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form43" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/43.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Serial</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Ethernet</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> FastEthernet</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> GigabitEthernet</label>
+                </div>
+                <p class="result-text" id="result43"></p>
+                <button type="button" class="next-btn" data-next="form44" data-question="q2" data-result="result43">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form44" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/44.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Actualizar la dirección IP del siguiente salto en la configuración de la ruta estatica</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Reiniciar el router para que se apliquen los cambios en la configuración de la ruta estática</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Verificar la configuración del firewall en el router para asegurarse de que permita el tráfico hacia la red remota</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Configurar un protocolo de enrutamiento dinámico en lugar de utilizar una ruta estática</label>
+                </div>
+                <p class="result-text" id="result44"></p>
+                <button type="button" class="next-btn" data-next="form45" data-question="q2" data-result="result44">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form45" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/45.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> La configuración del rango debe ser switchport port-security aging time 60</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> La dirección de mac address corresponde a un host intruso</label>
+                    <label><input type="radio" name="q2" value="correcta"> El modo de acceso debe configurarse como dynamic</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> La instrucción port-security debe ser on-sticky</label>
+                </div>
+                <p class="result-text" id="result45"></p>
+                <button type="button" class="next-btn" data-next="form46" data-question="q2" data-result="result45">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form46" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/46.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Limitar el acceso a la red basado en direcciones MAC</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Bloquear el tráfico basado en nombres de dominio</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Prevenir ataques de denegación de servicios (DoS)</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Filtrar el tráfico basado en direcciones IP</label>
+                </div>
+                <p class="result-text" id="result46"></p>
+                <button type="button" class="next-btn" data-next="form47" data-question="q2" data-result="result46">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form47" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/47.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta">Switch(config)#interface fa0/1 <br> Switch(config-if)#switchport mode trunk</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Switch(config)#interface fa0/1 <br> Switch(config-if)#switchport mode trunk <br> Switch(config-if)#switchport mode access</label>
+                    <label><input type="radio" name="q2" value="incorrecta">Switch(config)#interface fa0/1 <br> Switch(config-if)#switchport access vlan 10</label>
+                    <label><input type="radio" name="q2" value="incorrecta">Switch(config)#interface fa0/1 <br> Switch(config-if)#switchport access vlan 35</label>
+                </div>
+                <p class="result-text" id="result47"></p>
+                <button type="button" class="next-btn" data-next="form48" data-question="q2" data-result="result47">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form48" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/48.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> router(config)# ip route 0.0.0.0 0.0.0.0 serial0/0/0</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> router(config)# route 0.0.0.0 0.0.0.0 192.168.1.1</label>
+                    <label><input type="radio" name="q2" value="correcta"> router(config)# ip route default 192.168.1.1</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> router(config)# default-gateway serial 0/0/0</label>
+                </div>
+                <p class="result-text" id="result48"></p>
+                <button type="button" class="next-btn" data-next="form49" data-question="q2" data-result="result48">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form49" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/49.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Verificando la conectividad fisica entre los routers R1 y R2 para asegurarse de que estén correctamente conectados</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Cambiando el comando standby version 2 por standby version 1 para asegurarse de que ambos routers estén utilizando la misma versión de HSRP</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Agregando el comando standby 1 preempt para permitir que el router R2 toma el rol de enrutador activo si su prioridad es más alta</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Configurando una dirección IP válida en la interfaz de router R2 conectado al router R1</label>
+                </div>
+                <p class="result-text" id="result49"></p>
+                <button type="button" class="next-btn" data-next="form50" data-question="q2" data-result="result49">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form50" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/50.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 0.0.0.58</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 0.0.63.15</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 0.0.75.46</label>
+                    <label><input type="radio" name="q2" value="correcta"> 0.0.0.127</label>
+                </div>
+                <p class="result-text" id="result50"></p>
+                <button type="button" class="next-btn" data-next="form51" data-question="q2" data-result="result50">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form51" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/51.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> a Internet</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> en una red local</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> dentro de un mismo edificio</label>
+                    <label><input type="radio" name="q2" value="correcta"> en áreas geográficamente dispersas</label>
+                </div>
+                <p class="result-text" id="result51"></p>
+                <button type="button" class="next-btn" data-next="form52" data-question="q2" data-result="result51">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form52" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/52.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Administra contraseñas y accesos de usuarios</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Ofrecer servicios de transferencia de información</label>
+                    <label><input type="radio" name="q2" value="correcta"> Registrar eventos y mensajes del sistema de red</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Controlar los mecanismos de transferencia que ocurre en la red</label>
+                </div>
+                <p class="result-text" id="result52"></p>
+                <button type="button" class="next-btn" data-next="form53" data-question="q2" data-result="result52">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form53" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/53.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Punto de acceso IMAX</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Granja de servidores</label>
+                    <label><input type="radio" name="q2" value="correcta"> Controlador SDN</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> La Internet</label>
+                </div>
+                <p class="result-text" id="result53"></p>
+                <button type="button" class="next-btn" data-next="form54" data-question="q2" data-result="result53">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form54" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/54.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Informe</label>
+                    <label><input type="radio" name="q2" value="correcta"> Campo</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Tabla</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Llave</label>
+                </div>
+                <p class="result-text" id="result54"></p>
+                <button type="button" class="next-btn" data-next="form55" data-question="q2" data-result="result54">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form55" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/55.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 24</label>
+                    <label><input type="radio" name="q2" value="correcta"> 32</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 48</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 64</label>
+                </div>
+                <p class="result-text" id="result55"></p>
+                <button type="button" class="next-btn" data-next="form56" data-question="q2" data-result="result55">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form56" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/56.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 7</label>
+                    <label><input type="radio" name="q2" value="correcta"> 14</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 28</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 56</label>
+                </div>
+                <p class="result-text" id="result56"></p>
+                <button type="button" class="next-btn" data-next="form57" data-question="q2" data-result="result56">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form57" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/57.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Cumplir con las solicitudes de los consumidores de manera inmediata</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Proveer los servicios solamente en fechas especificadas por ellos</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Postergar la entrega de los servicios solicitados por sus clientes</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Atender las solicitudes de sus clientes futuros durante el día</label>
+                </div>
+                <p class="result-text" id="result57"></p>
+                <button type="button" class="next-btn" data-next="form58" data-question="q2" data-result="result57">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form58" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/58.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> WINDOWS</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> NOVELL</label>
+                    <label><input type="radio" name="q2" value="correcta"> LINUX</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> DOS</label>
+                </div>
+                <p class="result-text" id="result58"></p>
+                <button type="button" class="next-btn" data-next="form59" data-question="q2" data-result="result58">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form59" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/59.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 1</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 3</label>
+                    <label><input type="radio" name="q2" value="correcta"> 5</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> 7</label>
+                </div>
+                <p class="result-text" id="result59"></p>
+                <button type="button" class="next-btn" data-next="form60" data-question="q2" data-result="result59">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form60" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/60.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Trace route</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Ping de ruta</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Búsqueda de servidores de nombres</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Protocolo de Resolución de Direcciones</label>
+                </div>
+                <p class="result-text" id="result60"></p>
+                <button type="button" class="next-btn" data-next="form61" data-question="q2" data-result="result60">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form61" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/61.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Simple Network Management Protocol (SNMP)</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Dynamic Host Configuration Protocol (DHCP)</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Internet Control Message Protocol (ICMP)</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Address Resolution Protocol (ARP)</label>
+                </div>
+                <p class="result-text" id="result61"></p>
+                <button type="button" class="next-btn" data-next="form62" data-question="q2" data-result="result61">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form62" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/62.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> I y II</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> I y IV</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> II y III</label>
+                    <label><input type="radio" name="q2" value="correcta"> II y IV</label>
+                </div>
+                <p class="result-text" id="result62"></p>
+                <button type="button" class="next-btn" data-next="form63" data-question="q2" data-result="result62">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form63" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/63.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Bluetooth</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Paquet tracer</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Conexión Internet</label>
+                    <label><input type="radio" name="q2" value="correcta"> Gateway Residencial</label>
+                </div>
+                <p class="result-text" id="result63"></p>
+                <button type="button" class="next-btn" data-next="form64" data-question="q2" data-result="result63">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form64" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/64.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Las vulnerabilidades de IP son inexistentes debido a su diseño robusto</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Las vulnerabilidades de IP solo pueden ser explotadas por atacantes dentro de la red local</label>
+                    <label><input type="radio" name="q2" value="correcta"> Las vulnerabilidades de IP pueden permitir el enrutamiento inadecuado o el spoofing de direcciones IP</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Las vulnerabilidades de IP solo afectan a las redes cableadas y NO a las redes inalámbricas</label>
+                </div>
+                <p class="result-text" id="result64"></p>
+                <button type="button" class="next-btn" data-next="form65" data-question="q2" data-result="result64">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form65" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/65.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Identificar vulnerabilidades en la capa de red</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Evaluar los riesgos asociados a los ataques en la capa fisica</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Examinar los ataques a nivel de hardware de los dispositivos IoT</label>
+                    <label><input type="radio" name="q2" value="correcta"> Analizar los ataques en la capa de aplicación y evaluar las vulnerabilidades en el sistema IoT</label>
+                </div>
+                <p class="result-text" id="result65"></p>
+                <button type="button" class="next-btn" data-next="form66" data-question="q2" data-result="result65">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form66" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/66.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> La investigación de interacciones digitales</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> El análisis de fenómenos en redes sociales</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> La investigación del uso de tecnologías digitales</label>
+                    <label><input type="radio" name="q2" value="correcta"> El estudio de comportamientos y datos de usuarios en linea</label>
+                </div>
+                <p class="result-text" id="result66"></p>
+                <button type="button" class="next-btn" data-next="form67" data-question="q2" data-result="result66">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form67" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/67.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Detección de Movimiento Lateral</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Mapeo de rutas de ataque</label>
+                    <label><input type="radio" name="q2" value="correcta"> Ataques Kerberos</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Exfiltración de datos</label>
+                </div>
+                <p class="result-text" id="result67"></p>
+                <button type="button" class="next-btn" data-next="form68" data-question="q2" data-result="result67">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form68" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/68.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> Increase productivity</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Decrease productivity</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Assume more creative tasks</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Take managerial and communication duties</label>
+                </div>
+                <p class="result-text" id="result68"></p>
+                <button type="button" class="next-btn" data-next="form69" data-question="q2" data-result="result68">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form69" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/69.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> X50 Wireless Router</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> X-Series Ethernet Hub</label>
+                    <label><input type="radio" name="q2" value="correcta"> X-Series Ethernet Switch</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> X37 USB Wireless Network Adapter</label>
+                </div>
+                <p class="result-text" id="result69"></p>
+                <button type="button" class="next-btn" data-next="form70" data-question="q2" data-result="result69">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form70" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/70.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Receives new responsibility guidelines from the cloud providers</label>
+                    <label><input type="radio" name="q2" value="correcta"> Hands some responsabilities over to the new cloud provider</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Continues to have all security responsabilities</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Provides new responsabilities to follow </label>
+                </div>
+                <p class="result-text" id="result70"></p>
+                <button type="button" class="next-btn" data-next="form71" data-question="q2" data-result="result70">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form72" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/71.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Remind staff of the law of increasing change</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Show techniques for software maintenance</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Warn employees about maintenance risks</label>
+                    <label><input type="radio" name="q2" value="correcta"> Instruct employees about new policies</label>
+                </div>
+                <p class="result-text" id="result72"></p>
+                <button type="button" class="next-btn" data-next="form73" data-question="q2" data-result="result72">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form73" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/72.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="correcta"> To provide customers feedback on products or services</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> To offer guidance and assistance with technical issues</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> To promote and advertise new products</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> To handle biling and payment inquiries</label>
+                </div>
+                <p class="result-text" id="result73"></p>
+                <button type="button" class="next-btn" data-next="form74" data-question="q2" data-result="result73">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form74" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/73.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Limited availability and slow response times</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Inability to address complex technical issues</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Aggresive sales tactics ans upselling techniques</label>
+                    <label><input type="radio" name="q2" value="correcta"> Quick problem-solving skills, and good communication</label>
+                </div>
+                <p class="result-text" id="result74"></p>
+                <button type="button" class="next-btn" data-next="form75" data-question="q2" data-result="result74">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form75" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/74.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Explained that the sales are final</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Apologized about the inconvenience caused by them</label>
+                    <label><input type="radio" name="q2" value="correcta"> Asked questions before referring the call to a technician</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Offered a new set of items to replace the defective ones</label>
+                </div>
+                <p class="result-text" id="result75"></p>
+                <button type="button" class="next-btn" data-next="form76" data-question="q2" data-result="result75">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form76" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/75.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> Describe the advantages of software licensing</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Explain who to avoid portability, piracy and profitability</label>
+                    <label><input type="radio" name="q2" value="correcta"> Allow software to be freely used, modified and shared</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Develop software in a closed environment by a focused team</label>
+                </div>
+                <p class="result-text" id="result76"></p>
+                <button type="button" class="next-btn" data-next="form77" data-question="q2" data-result="result76">Siguiente</button>
+            </div>
+        </form>
+        <form class="question-form" id="form77" style="display:none;">
+            <div class="question-container">
+                <h3>SELECCIÓN UNICA</h3>
+                <img src="img/76.jpg" alt="Pregunta" class="question-image">
+                <div class="options">
+                    <label><input type="radio" name="q2" value="incorrecta"> 5G mobile devices</label>
+                    <label><input type="radio" name="q2" value="correcta"> Vulnerabilities found in IoT</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> Safety issues of operative system</label>
+                    <label><input type="radio" name="q2" value="incorrecta"> High-performance networking devices</label>
+                </div>
+                <p class="result-text" id="result77"></p>
+                <button type="button" class="next-btn" data-next="form77" data-question="q2" data-result="result77">Siguiente</button>
+            </div>
+        </form>
+            </div>
+        </form>        
+        <div id="result-container" style="display:none;">
+            <h2>Resultados del Examen</h2>
+            <p id="result-text"></p>
+            <img src="img/78.jpg" alt="Pregunta" class="question-image">
+        </div>
+
+    </div>
+    <script>
+        const nextButtons = document.querySelectorAll('.next-btn');
+        const buttonContainer = document.getElementById('button-container');
+        const dropdownMenu = document.getElementById('dropdown-menu');
+        const navButton = document.getElementById('nav-button');
+        let currentQuestionIndex = 0;
+        let correctAnswers = 0;
+
+        function showQuestion(index) {
+            const forms = document.querySelectorAll('.question-form');
+            forms.forEach((form, i) => {
+                form.style.display = i === index ? 'block' : 'none';
+            });
+        }
+
+        function generateNavigationButtons(totalQuestions) {
+            for (let i = 1; i <= totalQuestions; i++) {
+                const button = document.createElement('button');
+                button.textContent = `Pregunta ${i}`;
+                button.dataset.index = i - 1;
+                button.addEventListener('click', function() {
+                    currentQuestionIndex = parseInt(this.dataset.index);
+                    showQuestion(currentQuestionIndex);
+                    dropdownMenu.classList.add('hidden'); 
+                });
+                buttonContainer.appendChild(button);
+            }
+        }
+
+        nextButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const currentForm = this.closest('form');
+                const questionName = this.getAttribute('data-question');
+                const resultText = document.getElementById(this.getAttribute('data-result'));
+
+                const selectedOption = currentForm.querySelector(`input[name="${questionName}"]:checked`);
+                if (!selectedOption) {
+                    alert("Por favor selecciona una respuesta.");
+                    return;
+                }
+
+                if (selectedOption.value === "correcta") {
+                    resultText.textContent = "Respuesta Correcta";
+                    resultText.style.color = "green";
+                    correctAnswers++;
+                } else {
+                    resultText.textContent = " Respuesta Incorrecta.";
+                    resultText.style.color = "red";
+                    
+                }
+
+            setTimeout(() => {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < nextButtons.length) {
+                showQuestion(currentQuestionIndex);
+            } else {
+                currentForm.style.display = 'none';
+                document.getElementById('quiz-container').style.display = 'none';
+                document.getElementById('result-container').style.display = 'block';
+                document.getElementById('result-text').textContent = `¡Has completado el examen! Respuestas correctas: ${correctAnswers} de ${nextButtons.length}.`;
+            }
+        }, 1000); 
+    });
+});
+
+        navButton.addEventListener('click', function() {
+            dropdownMenu.classList.toggle('hidden');
+        });
+
+        // Inicializar
+        generateNavigationButtons(76); 
+        showQuestion(currentQuestionIndex); 
+
+        
+    </script>
+</body>
+</html>
